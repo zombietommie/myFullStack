@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import FirstComponent, { SecondComponent } from "./components/learning-examples/FirstComponent.js";
+import FirstComponent from "./components/learning-examples/FirstComponent";
+import SecondComponent from "./components/learning-examples/SecondComponent";
+import ThirdComponent from "./components/learning-examples/ThirdComponent";
 
 function App() {
   return (
@@ -11,12 +13,6 @@ function App() {
       <ThirdComponent></ThirdComponent>
     </div>
   );
-}
-
-
-
-function ThirdComponent() {
-  return <div className="thirdComponent">Third Component!</div>;
 }
 
 export default App;
