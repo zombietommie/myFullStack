@@ -9,6 +9,7 @@ function App() {
 		<div className='App'>
 			<h1>Tommy's Todo App</h1>
 			<FirstComponent></FirstComponent>
+			<SecondComponent> </SecondComponent>
 			<ThirdComponent></ThirdComponent>
 		</div>
 	);
