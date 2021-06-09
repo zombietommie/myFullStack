@@ -6,13 +6,19 @@ import ThirdComponent from './components/learning-examples/ThirdComponent';
 
 function App() {
 	return (
-		<div className='App'>
+		<LearingComponent></LearingComponent>
+	);
+}
+
+function LearingComponent () {
+	return (
+		<div className='LearningComponent'>
 			<h1>Tommy's Todo App</h1>
 			<FirstComponent></FirstComponent>
 			<SecondComponent></SecondComponent>
 			<ThirdComponent></ThirdComponent>
 		</div>
-	);
+	)
 }
 
 export default App;
