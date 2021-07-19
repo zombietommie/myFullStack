@@ -8,6 +8,7 @@ function App() {
     return (
         <div>
             <LearingComponent></LearingComponent>
+            <button>Click me!</button>
         </div>
     );
 }
